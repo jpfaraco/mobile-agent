@@ -1,7 +1,5 @@
 # Autonomous Mobile Agent
 
-This document provides a comprehensive overview of the Autonomous Mobile Agent project, its architecture, and instructions for setup and execution.
-
 ## Project Overview
 
 This project implements an autonomous agent capable of navigating and interacting with Android applications to accomplish a predefined "mission." The agent uses a combination of computer vision and UI analysis to understand the device's screen and decide on the next course of action.
@@ -60,6 +58,16 @@ To run the agent, follow these steps:
 
 2.  **Setup:**
     *   Clone the repository.
+    *   Create and activate a Python virtual environment:
+        ```bash
+        # For macOS/Linux
+        python3 -m venv venv
+        source venv/bin/activate
+
+        # For Windows
+        # python -m venv venv
+        # .\venv\Scripts\activate
+        ```
     *   Install the required Python packages:
         ```bash
         pip install -r requirements.txt
