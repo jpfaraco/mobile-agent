@@ -5,3 +5,4 @@ __pycache__/
 .DS_Store
 reports/
 screenshots/
+ui.xml
